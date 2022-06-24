@@ -1,0 +1,700 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar img {
+    height: 100px;
+    width: 100px;
+    margin-top: 0;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #626262;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.search-bar {
+    margin-right: 320px;
+}
+.search-bar input {
+    padding: 16px 0px;
+    width: 280%;
+    margin-top: 43px;
+    border: 1px solid #626262;
+    border-radius: 30px;
+    outline-color: #626262;
+    background-color: #f2f2f2;
+    padding-left: 10px;
+    color: black;
+}
+.nav1 ul {
+    padding-top: 50px;
+}
+.nav1 ul li a:hover {
+    color: blue;
+}
+.nav2 ul{
+    display: inline-flex;
+    padding-top: 50px;
+}
+.nav2 ul li a {
+    margin-right: 15px;
+}
+.nav2 ul li a:hover {
+    color: blue;
+}
+.chart-font {
+    margin-top: 50px;
+    font-size: 1.3em;
+}
+.chart-font a {
+    color: #626262;
+}
+.login-btn {
+    margin-top: 50px;
+}
+.login-btn button {
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 1px solid #626262;
+}
+.login-btn button:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+.signup-btn {
+    margin-top: 50px;
+}
+.signup-btn button {
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.signup-btn button:hover {
+    cursor: pointer;
+}
+.web-btn {
+    margin-top: 50px;
+}
+.web-btn button {
+    padding: 10px 10px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid #626262;
+}
+.web-btn button:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+.bg-container p {
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+.bg-container h1 {
+    padding-top: 10px;
+}
+.bg-container {
+    margin-left: 20px;
+    display: flex;
+    background-color: white;
+    width: 450px;
+    height: 150px;
+    border: 2px solid white;
+    position: absolute;
+    margin-top: 10%;
+    padding: 15px 10px;
+}
+.bg-img {
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+}
+.bg-img:hover {
+    cursor:pointer;
+}
+.courses ul {
+    display: flex;
+    justify-content: start;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.courses ul li {
+    list-style: none;
+}
+.courses ul li a {
+    text-decoration: none;
+    color: #626262;
+    font-size: 0.95em;
+    margin-right: 20px;
+}
+.courses p {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.courses h1 {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.python-expand {
+    margin-top: 50px;
+    margin-left: 50px;
+} 
+.python-expand h2 {
+    font-size: 1.2em;
+}
+.python-expand p {
+    margin-top: 15px;
+    font-size: 0.9em;
+    line-height: 20px;
+}
+.python-expand button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.python-expand button:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+.py-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.py-container img {
+    height: 150px;
+    width: 220px;
+}
+.py-container h2 {
+    font-size: 0.9em;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.py-container p{
+    font-size: 0.8em;
+    text-transform: capitalize;
+    margin-top: 10px;
+    line-height: 20px;
+    color: gray;
+}
+.py-container h4 {
+    font-size: 0.9em;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.py-container s {
+    color: gray;
+    font-weight: lighter;
+}
+#py1 p span {
+    color: #993300;
+    font-weight: bold;
+}
+#py1 i {
+    color: #ffa64d;
+}
+#py2 p span {
+    color: #993300;
+    font-weight: bold;
+}
+#py2 i {
+    color: #ffa64d;
+}
+#py2 button {
+    margin-top: 10px;
+    padding: 5px 5px;
+    color: black;
+    background-color: #ffe6b3;
+    border: 2px solid #ffe6b3;
+}
+#py2 button:hover {
+    cursor: pointer;
+}
+#py3 p span {
+    color: #993300;
+    font-weight: bold;
+}
+#py3 i {
+    color: #ffa64d;
+}
+#py4 p span {
+    color: #993300;
+    font-weight: bold;
+}
+#py4 i {
+    color: #ffa64d;
+}
+#py5 p span {
+    color: #993300;
+    font-weight: bold;
+}
+#py5 i {
+    color: #ffa64d;
+}
+.students-header {
+    margin-top: 70px;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+.students-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.students-container img {
+    width: 220px;
+    height: 150px;
+}
+.students-container h2 {
+    font-size: 0.9em;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.students-container p{
+    font-size: 0.8em;
+    text-transform: capitalize;
+    margin-top: 10px;
+    line-height: 20px;
+    color: gray;
+}
+.students-container h4 {
+    font-size: 0.9em;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.students-container s {
+    color: gray;
+    font-weight: lighter;
+}
+.student1 p span {
+    color: #993300;
+    font-weight: bold;
+}
+.student1 i {
+    color: #ffa64d;
+}
+.student1 button {
+    margin-top: 10px;
+    padding: 5px 5px;
+    color: black;
+    background-color: #ffe6b3;
+    border: 2px solid #ffe6b3;
+}
+.student2 p span {
+    color: #993300;
+    font-weight: bold;
+}
+.student2 i {
+    color: #ffa64d;
+}
+.student2 button {
+    margin-top: 10px;
+    padding: 5px 5px;
+    color: black;
+    background-color: #ffe6b3;
+    border: 2px solid #ffe6b3;
+}
+.student3 p span {
+    color: #993300;
+    font-weight: bold;
+}
+.student3 i {
+    color: #ffa64d;
+}
+.student3 button {
+    margin-top: 10px;
+    padding: 5px 5px;
+    color: black;
+    background-color: #ffe6b3;
+    border: 2px solid #ffe6b3;
+}
+.student4 p span {
+    color: #993300;
+    font-weight: bold;
+}
+.student4 i {
+    color: #ffa64d;
+}
+.student4 button {
+    margin-top: 10px;
+    padding: 5px 5px;
+    color: black;
+    background-color: #ffe6b3;
+    border: 2px solid #ffe6b3;
+}
+.student5 p span {
+    color: #993300;
+    font-weight: bold;
+}
+.student5 i {
+    color: #ffa64d;
+}
+.categories-header {
+    font-size: 0.9em;
+    margin-top: 50px;
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+.design-containers h2 {
+    font-size: 0.9em;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.design-containers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.design-containers img:hover {
+    cursor: pointer;
+}
+.design-containers2 h2 {
+    font-size: 0.9em;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.design-containers2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.design-containers2 img:hover {
+    cursor: pointer;
+}
+.ft-header {
+    margin-top: 100px;
+    background-color: #f2f2f2f2;
+}
+.ft-header1 h1 {
+    font-size: 1.2em;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+.development1 {
+    margin-left: 30px;
+}
+.ft-container h2 {
+    font-size: 1.1em;
+    margin-top: 25px;
+}
+.ft-container ul li a {
+    font-weight: 700;
+    font-size: 0.9em;
+    color: rgb(16, 16, 235);
+    text-transform: capitalize;
+}
+.ft-container ul li {
+    color: grey;
+    list-style: none;
+    margin-top: 15px;
+}
+#list-1, #list-2, #list-3, #list-4, #list-5, #list-6, #list-7, #list-8, #list-9, #list-10, 
+#list-11, #list-12 {
+    font-size: 0.75em;
+}
+.development1 button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-bottom: 60px;
+}
+.development1 button:hover {
+    cursor: pointer;
+    background-color: rgb(212, 207, 207);
+}
+.ft-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.bio1 h1 {
+    font-size: 1.7em;
+}
+.bio1 p {
+    font-size: 1.1em;
+    margin-top: 15px;
+    line-height: 25px;
+    color: rgb(73, 71, 71);
+}
+.bio1 {
+    margin-top: 14%;
+}
+.bio1 button {
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(46, 45, 45);
+    border: 1px solid rgb(46, 45, 45);
+    font-size: 1em;
+    margin-top: 15px;
+}
+.bio1 button:hover {
+    cursor: pointer;
+    background-color: rgb(7, 6, 6);
+}
+.instructor1-bio {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+.instructor1 {
+    margin-top: 5%;
+}
+.trustees {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+.trustees img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.trustees a {
+    text-decoration: none;
+}
+.trustees h2 {
+    margin-top: 30px;
+}
+.bio2 img {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+}
+.instructor2-bio p {
+    font-size: 1.1em;
+    line-height: 25px;
+    color: rgb(73, 71, 71);
+}
+.instructor2-bio button {
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(46, 45, 45);
+    border: 1px solid rgb(46, 45, 45);
+    font-size: 1em;
+    margin-top: 15px;
+}
+.instructor2-bio button:hover {
+    cursor: pointer;
+    background-color: rgb(7, 6, 6);
+}
+.instructor2-bio {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    column-gap: 100px;
+    margin-top: 70px;
+}
+.bio2 {
+    margin-top: 90px;
+}
+.bio2 p{
+    margin-top: 100px;
+}
+.transform-text h1 {
+    font-size: 1.7em;
+}
+.transform-text p {
+    font-size: 1.1em;
+    margin-top: 15px;
+    line-height: 25px;
+    color: rgb(73, 71, 71);
+}
+.transform-text button {
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(46, 45, 45);
+    border: 1px solid rgb(46, 45, 45);
+    font-size: 1em;
+    margin-top: 15px;
+}
+.transform-text button:hover {
+    cursor: pointer;
+    background-color: rgb(7, 6, 6);
+}
+.transform {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    column-gap: 100px;
+}
+.transform-text {
+    margin-top: 100px;
+}
+.footer-links ul li {
+    list-style: none;
+}
+.footer-links ul li a {
+    text-decoration: none;
+    font-size: 0.85em;
+    color: white;
+    line-height: 30px;
+}
+.footer-links ul li a:hover {
+    border-bottom: 1px solid white;
+}
+.footer-links ul{
+    margin-top: 30px;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+footer {
+    background-color: rgb(29, 28, 28);
+}
+.footer-links button {
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(46, 45, 45);
+    border: 1px solid rgb(46, 45, 45);
+    font-size: 1em;
+    margin-top: 35px;
+}
+.footer-links button:hover {
+    cursor: pointer;
+    background-color: rgb(7, 6, 6);
+}
+.footer5 img {
+    height: 100px;
+    width: 100px;
+}
+.footer6 p {
+    color: white;
+    font-size: 0.7em;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+}
+@media all and (max-width: 600px){
+    .navbar ul li a {
+        display: none;
+    }
+    .search-bar, .nav1, .nav2, .login-btn, .signup-btn, .web-btn, .chart-font {
+        display: none;
+    }
+    .bg-container {
+        display: none;
+    }
+    .courses p {
+        line-height: 25px;
+    }
+    .courses ul{
+        flex-direction: column;
+        line-height: 30px;
+    }
+    .py-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .students-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .design-containers {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    .design-containers2 {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    .ft-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .design1 {
+        margin-bottom: 30px;
+    }
+    .instructor1-bio {
+        flex-direction: column;
+        text-align: center;
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .design1 h2 {
+        text-align: center;
+    }
+    .students-header h2 {
+        text-align: center;
+    }
+    .ft-header1 h1 {
+        text-align: center;
+    }
+    .categories-header h2 {
+        text-align: center;
+    }
+    .instructor2-bio {
+        flex-direction: column-reverse;
+        position: relative;
+        text-align: center;
+    }
+    .instructor2, .bio2 {
+        position: absolute;
+    }
+    .bio2{
+        margin-top: 250px;
+        text-align: center;
+    }
+    .bio2 img {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+    }
+    .bio2 p {
+        margin-left: 25px;
+        position: relative;
+        left: 12%;
+    }
+    .bio3 img {
+        margin-bottom: 290px;
+    }
+    .transform {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-links {
+        flex-direction: column;
+        text-align: center;
+    }
+    .post-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer6 p {
+        margin-right: 0px;
+    }
+}
