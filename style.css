@@ -590,7 +590,7 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-@media all and (max-width: 600px){
+@media all and (max-width: 670px){
     .navbar ul li a {
         display: none;
     }
@@ -637,13 +637,6 @@ footer {
     .instructor1-bio {
         flex-direction: column;
         text-align: center;
-    }
-    body, html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        width: 100%;
-        overflow-x: hidden;
     }
     .design1 h2 {
         text-align: center;
@@ -696,5 +689,155 @@ footer {
     }
     .footer6 p {
         margin-right: 0px;
+    }
+}
+@media all and (max-width: 790px) {
+    .navbar ul li a {
+        display: none;
+    }
+    .search-bar, .nav1, .nav2, .login-btn, .signup-btn, .web-btn, .chart-font {
+        display: none;
+    }
+    .bg-container {
+        display: none;
+    }
+    .courses h1 {
+        font-size: 1.2em;
+    }
+    .courses p {
+        font-size: 0.9em;
+    }
+    .courses ul li a {
+        font-size: 0.8em;
+        margin-right: 10px;
+    }
+    .python-expand h2 {
+        font-size: 1.2em;
+    }
+    .python-expand p {
+        font-size: 0.8em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .py-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .students-header h2 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .students-container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .categories-header h2 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .design-containers {
+        flex-direction: column;
+        text-align: center;
+    }
+    .design-containers2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .ft-header1 h1 {
+        font-size: 1.15em;
+        text-align: center;
+    }
+    .ft-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .instructor1-bio {
+        flex-direction: column;
+        text-align: center;
+    }
+    .trustee-header h2 {
+        font-size: 1.2em;
+    }
+    .transform {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media all and (max-width: 1050px) {
+    .nav2, .chart-font, .login-btn, .signup-btn, .web-btn {
+        display: none;
+    }
+    .search-bar input {
+        width: 200%;
+    }
+    .python-expand h2 {
+        font-size: 1.2em;
+    }
+    .python-expand p {
+        font-size: 0.8em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .courses h1 {
+        font-size: 1.2em;
+    }
+    .courses p {
+        font-size: 0.9em;
+    }
+    .courses ul li a {
+        font-size: 0.8em;
+        margin-right: 10px;
+    }
+    .bg-container {
+        display: none;
+    }
+    .py-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .students-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .design-containers {
+        flex-wrap: wrap;
+    }
+    .design-containers2 {
+        flex-wrap: wrap;
+    }
+    .ft-container {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .ft-header1 h1 {
+        font-size: 1.15em;
+        text-align: center;
+    }
+}
+@media all and (max-width: 1250px) {
+    .nav2, .chart-font, .login-btn, .signup-btn, .web-btn {
+        display: none;
+    }
+    .search-bar input {
+        width: 200%;
+    }
+    .py-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .students-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .design-containers {
+        flex-wrap: wrap;
+    }
+    .design-containers2 {
+        flex-wrap: wrap;
+    }
+}
+@media all and (max-width: 1350px) {
+    .nav2 {
+        display: none;
     }
 }
