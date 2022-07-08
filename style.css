@@ -667,10 +667,23 @@ footer {
         top: -17px;
         left: 30%;
     }
+    .bio1 h1 {
+        font-size: 1em;
+    }
+    .bio1 p{
+        font-size: 0.8em;
+    }
     .bio2 p {
         margin-left: 25px;
         position: relative;
         left: 3%;
+        font-size: 0.8em;
+    }
+    .transform-text h1 {
+        font-size: 1em;
+    }
+    .transform-text p {
+        font-size: 0.8em;
     }
     .bio3 img {
         margin-bottom: 290px;
@@ -771,6 +784,18 @@ footer {
     .transform {
         flex-direction: column;
         text-align: center;
+    }
+    .bio1 h1 {
+        font-size: 1em;
+    }
+    .bio1 p, .bio2 p{
+        font-size: 0.8em;
+    }
+    .transform-text h1 {
+        font-size: 1em;
+    }
+    .transform-text p {
+        font-size: 0.8em;
     }
 }
 @media all and (max-width: 1050px) {
