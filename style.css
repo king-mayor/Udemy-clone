@@ -674,6 +674,16 @@ footer {
     }
     .bio3 img {
         margin-bottom: 290px;
+        width: 300px;
+        height: 300px;
+    }
+    .instructor1 img {
+        width: 300px;
+        height: 300px;
+    }
+    .transform-img img {
+        width: 300px;
+        height: 300px;
     }
     .transform {
         flex-direction: column;
