@@ -157,6 +157,8 @@
     margin-top: 15px;
     font-size: 0.9em;
     line-height: 20px;
+    text-align: justify;
+    margin-right: 20px;
 }
 .python-expand button {
     margin-top: 20px;
